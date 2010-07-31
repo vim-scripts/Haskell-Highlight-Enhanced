@@ -1,0 +1,15 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=3175
+
+Mainly based on the plugin (http://www.vim.org/scripts/script.php?script_id=2062) which is no longer maintained,
+the last version is 1.2, so I get started from 1.3.
+Thx to it !
+
+That one regards 'class' and 'datatype' as the same, but this one separates them.
+That one only highlights the func & class & datatype in the standard Prelude, but this one includes all the official.
+
+Here's the SNAPSHOT
+http://treblih.is-programmer.com/user_files/treblih/Image/hask.png
+
+U could see that 'datatype' and 'keyword' are in green, while 'class' in black, function in purple.
+
+Enjoy
