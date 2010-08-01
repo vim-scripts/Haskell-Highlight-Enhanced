@@ -61,30 +61,30 @@ syn match hsConditional	"\<\(if\|then\|else\)\>"
 
 " Types
 syn keyword hsType	Array
-syn keyword hsType	Bool, BufferMode
-syn keyword hsType	CalendarTime, Char, ClockTime, Complex, Complex
-syn keyword hsType	Day, Double
-syn keyword hsType	Either, ExitCode
-syn keyword hsType	FilePath, Float
-syn keyword hsType	Handle, HandlePosn
-syn keyword hsType	Int, Integer, IO, IOError, IOMode
-syn keyword hsType	Maybe, Month
+syn keyword hsType	Bool BufferMode
+syn keyword hsType	CalendarTime Char ClockTime Complex Complex
+syn keyword hsType	Day Double
+syn keyword hsType	Either ExitCode
+syn keyword hsType	FilePath Float
+syn keyword hsType	Handle HandlePosn
+syn keyword hsType	Int Integer IO IOError IOMode
+syn keyword hsType	Maybe Month
 syn keyword hsType	Ordering
 syn keyword hsType	Permissions
-syn keyword hsType	Ratio, Rational, Rational, Read, ReadS
-syn keyword hsType	SeekMode, Show, ShowS, StdGen, String
-syn keyword hsType	TimeDiff , TimeLocale
+syn keyword hsType	Ratio Rational Rational Read ReadS
+syn keyword hsType	SeekMode Show ShowS StdGen String
+syn keyword hsType	TimeDiff  TimeLocale
 
 
 " Classes from the standard prelude
 syn keyword hsCls	Bounded
-syn keyword hsCls	Enum, Eq
-syn keyword hsCls	Floating, Fractional, Functor
-syn keyword hsCls	Integral, Ix
-syn keyword hsCls	Monad, MonadPlus
+syn keyword hsCls	Enum Eq
+syn keyword hsCls	Floating Fractional Functor
+syn keyword hsCls	Integral Ix
+syn keyword hsCls	Monad MonadPlus
 syn keyword hsCls	Num
 syn keyword hsCls	Ord
-syn keyword hsCls	Random, RandomGen, Read, Real, RealFloat, RealFrac
+syn keyword hsCls	Random RandomGen Read Real RealFloat RealFrac
 syn keyword hsCls	Show
 
 
@@ -563,7 +563,7 @@ if version >= 508 || !exists("did_hs_syntax_inits")
   hi link hsPragma              SpecialComment
   hi link hsBoolean             Boolean
   hi link hsType                Type
-  hi link hsFunc            Function
+  hi link hsFunc            	Function
   hi link hsMaybe               hsEnumConst
   hi link hsOrdering            hsEnumConst
   hi link hsEnumConst           Constant
